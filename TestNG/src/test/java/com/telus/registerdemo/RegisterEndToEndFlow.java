@@ -1,6 +1,12 @@
 package com.telus.registerdemo;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class RegisterEndToEndFlow {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 
 		//Set the system property for chrome driver
@@ -376,6 +382,15 @@ public class RegisterEndToEndFlow {
 		String transactionId = transactionMsg[1].trim();
 
 		System.out.println("The Transaction Id : " + transactionId);
+		
+		//Capture Screenshot
+		//Take Screenshot
+		TakesScreenshot scnShot = (TakesScreenshot) driver;
+		
+		File file = scnShot.getScreenshotAs(OutputType.FILE);
+		
+		//copy to hard drive
+		FileUtils.copyFile(file, new File(".\\Screenshot\\Transaction.jpg"));
 
 		//Close the browser driver
 		driver.quit();
