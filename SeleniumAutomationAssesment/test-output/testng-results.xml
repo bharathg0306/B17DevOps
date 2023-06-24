@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Register Link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[First Name entered is BharathVasan]]>
+    </line>
+    <line>
+      <![CDATA[Last Name entered is G]]>
+    </line>
+    <line>
+      <![CDATA[Address entered is 200, Consilium Place]]>
+    </line>
+    <line>
+      <![CDATA[City entered is Toronto]]>
+    </line>
+    <line>
+      <![CDATA[State entered is Ontario]]>
+    </line>
+    <line>
+      <![CDATA[Zip Code entered is M1H3E4]]>
+    </line>
+    <line>
+      <![CDATA[Phone Number entered is 6842289647]]>
+    </line>
+    <line>
+      <![CDATA[SSN entered is M178541]]>
+    </line>
+    <line>
+      <![CDATA[User Name entered is testnew290]]>
+    </line>
+    <line>
+      <![CDATA[Register button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[User Name displayed is testnew290]]>
+    </line>
+    <line>
+      <![CDATA[Successful Welcome Message displayed is Your account was created successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Log Out link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-24T15:18:10 IST" name="Automation Suite" finished-at="2023-06-24T15:18:15 IST" duration-ms="4776">
+    <groups>
+    </groups>
+    <test started-at="2023-06-24T15:18:10 IST" name="Para Bank Registration Test Case" finished-at="2023-06-24T15:18:15 IST" duration-ms="4776">
+      <class name="com.telus.testcases.RegisterUser">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.telus.testcases.RegisterUser@741a8937]" started-at="2023-06-24T15:18:02 IST" name="launchApplication" finished-at="2023-06-24T15:18:10 IST" duration-ms="7994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is launched sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="clickRegisterUser()[pri:1, instance:com.telus.testcases.RegisterUser@741a8937]" started-at="2023-06-24T15:18:11 IST" name="clickRegisterUser" finished-at="2023-06-24T15:18:12 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register Link is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickRegisterUser -->
+        <test-method signature="registerUser()[pri:2, instance:com.telus.testcases.RegisterUser@741a8937]" started-at="2023-06-24T15:18:12 IST" name="registerUser" finished-at="2023-06-24T15:18:14 IST" duration-ms="1917" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[First Name entered is BharathVasan]]>
+            </line>
+            <line>
+              <![CDATA[Last Name entered is G]]>
+            </line>
+            <line>
+              <![CDATA[Address entered is 200, Consilium Place]]>
+            </line>
+            <line>
+              <![CDATA[City entered is Toronto]]>
+            </line>
+            <line>
+              <![CDATA[State entered is Ontario]]>
+            </line>
+            <line>
+              <![CDATA[Zip Code entered is M1H3E4]]>
+            </line>
+            <line>
+              <![CDATA[Phone Number entered is 6842289647]]>
+            </line>
+            <line>
+              <![CDATA[SSN entered is M178541]]>
+            </line>
+            <line>
+              <![CDATA[User Name entered is testnew290]]>
+            </line>
+            <line>
+              <![CDATA[Register button is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="successfulMessageVerification()[pri:3, instance:com.telus.testcases.RegisterUser@741a8937]" started-at="2023-06-24T15:18:14 IST" name="successfulMessageVerification" finished-at="2023-06-24T15:18:15 IST" duration-ms="1651" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Name displayed is testnew290]]>
+            </line>
+            <line>
+              <![CDATA[Successful Welcome Message displayed is Your account was created successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Log Out link is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfulMessageVerification -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.telus.testcases.RegisterUser@741a8937]" started-at="2023-06-24T15:18:15 IST" name="closeApplication" finished-at="2023-06-24T15:18:16 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is closed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.telus.testcases.RegisterUser -->
+    </test> <!-- Para Bank Registration Test Case -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

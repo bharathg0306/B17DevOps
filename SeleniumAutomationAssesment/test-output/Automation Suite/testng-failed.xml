@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Para Bank Registration Test Case(failed)">
+    <classes>
+      <class name="com.telus.testcases.RegisterUser">
+        <methods>
+          <include name="successfulMessageVerification"/>
+          <include name="closeApplication"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.telus.testcases.RegisterUser -->
+    </classes>
+  </test> <!-- Para Bank Registration Test Case(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
